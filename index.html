@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <meta name="description" content="A web app for making math calcs">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculando</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css" preload>
+    <script src="/js/script.js" defer>        
+    </script>
 </head>
 <body>
     <header>
@@ -13,24 +15,33 @@
     </header>
     <main>
         <div id="container">
-            <p id="firstInputNumber">1º Número</p>
-            <p id="secondInputNumber">2º Número</p>
-            <p>
-                Seleccione o cálculo que deseja efectuar:
+            <p id="firstInputNumber">
+                1º Número: ?
+            </p>
+            <p id="secondInputNumber">
+                2º Número: ?
+            </p>
+            <p id="instruction">
+                Escolha a operação que deseja efectuar:
             </p>
             <button onclick="sum()">Somar</button>
             <button onclick="subtration()">Subtrair</button>
             <button onclick="multiplication()">Multiplicar</button>
             <button onclick="division()">Dividir</button>
             <p id="calc"></p>
-            <button onclick="window.alert('Para Reiniciar os cálculos com novos números, actualize a página!')">Reiniciar</button>
-            <br>
-            <br>
+            <p></p>
+            <button onclick="restart()">            
+                Reiniciar
+            </button>
         </div>
     </main>
     <footer>
-        <p>Designed By <a href="http://https://my-portfolio-fc.onrender.com/" target="_blank" rel="noopener noreferrer">Felizardo Caculo</a></p>
-    </footer>
-    
+        <p>
+            Designed By 
+            <a href="http://https://my-portfolio-fc.onrender.com/" target="_blank" rel="noopener noreferrer">
+                Felizardo Caculo
+            </a>
+        </p>
+    </footer>    
 </body>
 </html>

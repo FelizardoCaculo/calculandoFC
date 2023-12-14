@@ -18,3 +18,6 @@ function division(){
     let division = firstNumber / secondNumber;
     document.getElementById('calc').innerHTML = `Dividindo: ${firstNumber} / ${secondNumber} = ${division}`;
 }
+function restart(){
+    alert('Para reiniciar os cálculos com novos números, actualize a página!');
+}
