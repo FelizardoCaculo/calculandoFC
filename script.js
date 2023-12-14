@@ -4,7 +4,7 @@ document.getElementById('firstInputNumber').innerHTML = `1º Número: ${firstNum
 document.getElementById('secondInputNumber').innerHTML = `2º Número: ${secondNumber}`;
 function sum(){
     let sum = firstNumber + secondNumber;
-    document.getElementById('calc').innerHTML = `Romando: ${firstNumber} + ${secondNumber} = ${sum}`;
+    document.getElementById('calc').innerHTML = `Somando: ${firstNumber} + ${secondNumber} = ${sum}`;
 }
 function subtration(){
     let subtration = firstNumber - secondNumber;
